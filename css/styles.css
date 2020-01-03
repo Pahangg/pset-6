@@ -8,7 +8,7 @@ body{
 }
 
 .theHeader {
-  background-color: pink;
+  background-color: #5A9284;
   padding: 30px 42px;
   color: white;
   text-align: center;
@@ -31,7 +31,7 @@ body{
 }
 .createButton {
   padding: 10px;
-  background-color: yellow;
+  background-color: 	#FFC6AA;
   color: white;
   font-size: 15px;
   width: 30%;
@@ -45,7 +45,7 @@ body{
 }
 
 .createButton:hover {
-   background-color: red;
+   background-color: 	#D98B8B;
 
 }
 
@@ -56,14 +56,14 @@ ul{
 
 ul li{
     position: relative;
-    background: green;
+    background: #E3D3A7;
     list-style-type: none;
     cursor: pointer;padding: 10px 6px 10px 30px;
     transition: 0.3s;
 }
 
 ul li: nth-child(odd){
-  background-color: yellow;
+  background-color: #855434;
 }
 
 ul li.checked::before {
@@ -90,5 +90,13 @@ ul li.checked::before {
 }
 
 ul li:hover {
-  background-color: orange;
+  background-color: #5E907D;
+}
+
+.priority-low {
+  color: white;
+}
+
+.priority-high {
+  color: red;
 }
