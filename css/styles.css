@@ -28,7 +28,7 @@ table {
 }
 .to_do {
   font-family: serif;
-  text-align: right;
+  text-align: left;
   background-color:#D7DBDE;
   font-size: 25px;
 }
