@@ -1,102 +1,94 @@
-body{
-   margin: 0;
-   min-width: 300px;
+body {
+  background-color:	#DA8A8D;
 }
-
-*{
-  box-sizing: border-box;
+hr{
+  margin-top: 51px;
 }
-
-.theHeader {
-  background-color: #5A9284;
-  padding: 30px 42px;
+.title {
+  font-family: Cambria;
+  font-size: 50px;
   color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.todo_header{
+  text-align: center;
+  font-family: Cambria;
+  font-size: 30px;
+  color: white;
+}
+table {
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    font-family: sans-serif;
+}
+.to_do {
+  font-family: serif;
+  text-align: left;
+  background-color:#D7DBDE;
+  font-size: 25px;
+}
+}
+.row {
+    margin-top: 20px;
+    height: 40px;
+}
+.priority_button {
+    width: 40px;
+    text-align: center;
+    background-color:	#F3BE79;
+}
+.priority_button:hover {
+    background-color: 	#F2C9B7;
+}
+.complete_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color:#97CEB0;
+}
+.complete_button:hover {
+    background-color: 	#F2C9B7;
+}
+.remove_button {
+    align: left;
+    width: 40px;
+    text-align: center;
+    background-color:	#C24976;
+}
+.remove_button:hover {
+    background-color: 	#F2C9B7;
+}
+.input {
+  text-align: center;
+  width: 400px;
+  height: 20px;
+  font-family: serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.user_input {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
-.theHeader::after{
-  content: '';
-  display: table;
-  clear: both;
+.button_add {
+  width: 100px;
+  border-radius:70px;
+  font-family: serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+h1 {
+  background-color:	#F2C9B7;
+  border-radius: 15px 15px 15px 15px;
 }
 
-#theInput{
-   width: 70%;
-   padding: 10px;
-   float: left;
-   font-size: 15px;
-   margin: 0;
-   border: none;
-   border-radius: 0;
-
-}
-.createButton {
-  padding: 10px;
-  background-color: 	#FFC6AA;
-  color: white;
-  font-size: 15px;
-  width: 30%;
-  color: purple;
-  float: left;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0;
-  transition: 0.4s;
-
-}
-
-.createButton:hover {
-   background-color: 	#D98B8B;
-
-}
-
-ul{
-  margin: 0;
-  padding: 0;
-}
-
-ul li{
-    position: relative;
-    background: #E3D3A7;
-    list-style-type: none;
-    cursor: pointer;padding: 10px 6px 10px 30px;
-    transition: 0.3s;
-}
-
-ul li: nth-child(odd){
-  background-color: #855434;
-}
-
-ul li.checked::before {
-  content: '';
-  position: absolute;
-  border-color: white;
-  border-style: solid;
-  border-width: 0 2px 2px 0;
-  top: 10px;
-  left: 15px;
-  transform: rotate(45deg);
-  height: 15px;
-  width: 10px;
-}
-.close{
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 10px 15px 10px 15px;
-}
-
-.close:hover {
-  background: blue;
-}
-
-ul li:hover {
-  background-color: #5E907D;
-}
-
-.priority-low {
-  color: white;
-}
-
-.priority-high {
-  color: red;
+.button_add:hover{
+  background-color: 	#F2C9B7;
 }
